@@ -1,1 +1,44 @@
+# 🌟 Informations générales
+title: "Alioune Fall | Développeur Fullstack Python"
+description: "Ingénieur logiciel autodidacte | Spécialiste Python | Développement Web&Mobile Fullstack"
+author: "Ton Nom"
+baseurl: ""  # Laisser vide pour GitHub Pages
+url: "https://badarahakeem.github.io"  # Remplace avec ton URL GitHub Pages
+
+# 🎨 Thème Jekyll (modifiable selon tes besoins)
+theme: jekyll-theme-minimal  # Ou : jekyll-theme-cayman, jekyll-theme-modernist, etc.
+
+# 📂 Structure du site
+collections:
+  projets:
+    output: true
+    permalink: /projets/:name/
+
+# 🔗 Liens sociaux
+social_links:
+  github: "https://github.com/TonPseudo"
+  linkedin: "https://www.linkedin.com/in/TonPseudo"
+  twitter: "https://twitter.com/TonPseudo"
+
+# 🔥 Plugins pour SEO, Sitemap, RSS
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate  # Pagination des articles
+
+# 📁 Navigation personnalisée
+nav:
+  - title: "🏠 Accueil"
+    url: "/"
+  - title: "📂 Projets"
+    url: "/projets"
+  - title: "👨‍💻 À propos"
+    url: "/about"
+  - title: "📬 Contact"
+    url: "/contact"
+
+# 🛠 Configuration des posts/articles
+paginate: 5  # Nombre d'articles par page
+paginate_path: "/blog/page:num/"
 
